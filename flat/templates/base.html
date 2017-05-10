@@ -26,6 +26,7 @@
     <link href="{% static "css/prettyPhoto.css" %}" rel="stylesheet">
     <link href="{% static "css/animate.css" %}" rel="stylesheet">
     <link href="{% static "css/main.css" %}" rel="stylesheet">
+    <link href="{% static "css/lrtk.css" %}" rel="stylesheet">
    
 
 
@@ -57,6 +58,7 @@
 <script src="{% static "mezzanine/js/"|add:settings.JQUERY_FILENAME %}"></script>
 <script src="{% static "js/bootstrap.min.js" %}"></script>
 <script src="{% static "js/bootstrap-extras.js" %}"></script>
+<script src="{% static "js/lrtk.js" %}"></script>
 {% block extra_js %}{% endblock %}
 {% include "includes/footer_scripts.html" %}
 {% endcompress %}
@@ -153,7 +155,19 @@
 {% page_menu "pages/menus/footer.html" %}
 
 </section>
-<a id="scrollUp" href="#top" style="position: fixed; z-index: 2147483647; display: block;"><i class="fa fa-angle-up"></i></a>
+
+<div class="lxwm">
+        <div id="top">
+            <div class="serverInfo"  style="display: hidden">
+                <span class="jdurl" info='' rel="nofollow"></span>
+                <span class="tmallurl" info='' rel="nofollow"></span>
+                <span class="serverQQ" info='1111111' rel="nofollow"></span>
+                <span class="wxcode" info='/Data/graphic/2016/06/03/575100ab35e61_6229389.jpg' rel="nofollow"></span>
+                <span class="linkPhone" info='12112121212'></span>
+            </div>
+        </div>
+</div>
+
 
  <script src="{% static "js/jquery.prettyPhoto.js" %}"></script>
  <script src="{% static "js/jquery.isotope.min.js" %}"></script>
