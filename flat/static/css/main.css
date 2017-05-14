@@ -77,6 +77,9 @@ a:focus {
 body > section {
   padding: 50px 0;
 }
+.little-bottom {
+  padding: 10px 0;
+}
 .turquoise,
 .green-sea,
 .sun-flower,
@@ -778,7 +781,7 @@ ul.tag-cloud li {
 {{ page.richtextpage.content|richtext_filters|safe }}
 
 footer {
-   
+
     border-top: 0;
     margin-top: 0;
 
